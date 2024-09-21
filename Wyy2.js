@@ -13,7 +13,7 @@ VIP音乐试听权限+
 [rewrite_local]
 
 # > 网易云解锁VIP
-^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header http://gjds666.cf/quantumultx/Wyy.js
+^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/czzhu/Rob/refs/heads/main/Wyy2.js
 
 [mitm] 
 hostname = *.music.163.com
